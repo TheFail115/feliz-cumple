@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Feliz Cumpleaños!</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #ffebcd;
+            font-family: 'Arial', sans-serif;
+        }
+        h1 {
+            color: #ff4500;
+            font-size: 50px;
+        }
+        .globo {
+            font-size: 50px;
+            animation: flotar 2s infinite alternate;
+        }
+        @keyframes flotar {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-20px); }
+        }
+        #mensaje {
+            font-size: 24px;
+            color: #333;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎉 ¡Feliz Cumpleaños! 🎂🎈</h1>
+    <div>
+        <span class="globo">🎈</span>
+        <span class="globo">🎈</span>
+        <span class="globo">🎈</span>
+    </div>
+    <p id="mensaje">Que este día esté lleno de amor, alegría y muchas sorpresas. 🥳</p>
+
+    <audio autoplay loop>
+        <source src="cumpleaños.mp3" type="audio/mp3">
+        Tu navegador no soporta audio.
+    </audio>
+</body>
+</html>
